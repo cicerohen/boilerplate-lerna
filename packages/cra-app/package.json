@@ -1,0 +1,40 @@
+{
+  "name": "@monorepo/cra-app",
+  "homepage": ".",
+  "version": "1.0.0",
+  "private": true,
+  "sideEffects": false,
+  "scripts": {
+    "start": "PORT=3000 react-scripts start",
+    "dev": "yarn start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --colors",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {},
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "dependencies": {
+    "@monorepo/ui-library": "^1.0.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-router-dom": "^5.1.2",
+    "styled-components": "^5.0.1"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "react-scripts": "4.0.3"
+  }
+}
