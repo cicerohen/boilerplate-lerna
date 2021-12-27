@@ -6,8 +6,7 @@
 
 ## Install
 
-##### Instalar dependences of all packages/
-
+##### Install dependencies of all packages/
 ```bash
 yarn install
 ```
